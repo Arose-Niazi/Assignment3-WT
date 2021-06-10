@@ -3,42 +3,56 @@
         "id": 0,
         "name": "Arose",
         "gender": "Male",
-        "email" : "arose.niazi@yahoo.com",
+        "email" : "niazi.arose@gmail.com",
         "address" : {
             "country" : "Pakistan",
             "city" : "Mianwali",
             "street_address" : "Billokhel H# 137M"
         },
         "course_code" : "CSE100",
-        "phone_numbers" : ["0900-786011", "0000-158415"],
+        "phone_numbers" : ["0900-786011", "0000-158415", "0000-000000"],
         "age": 22
     },
     {
         "id": 1,
-        "name": "Arose",
-        "gender": "Male",
-        "email" : "arose.niazi@yahoo.com",
+        "name": "Rimsha Arif",
+        "gender": "Female",
+        "email" : "rimshaarif723@yahoo.com",
         "address" : {
             "country" : "Pakistan",
-            "city" : "Mianwali",
-            "street_address" : "Billokhel H# 137M"
+            "city" : "Lahore",
+            "street_address" : "Block G House no 192 State Life Housing Society"
         },
-        "course_code" : "CSE100",
-        "phone_numbers" : ["0900-786011", "0000-158415"],
-        "age": 22
+        "course_code" : "CSE121",
+        "phone_numbers" : ["0911-6512309", "0911-0098712"],
+        "age": 21
     },
     {
         "id": 2,
-        "name": "Arose",
+        "name": "Qasim",
         "gender": "Male",
-        "email" : "arose.niazi@yahoo.com",
+        "email" : "muhammadqasimhayat2@gmail.com",
         "address" : {
             "country" : "Pakistan",
-            "city" : "Mianwali",
-            "street_address" : "Billokhel H# 137M"
+            "city" : "Sargodha",
+            "street_address" : "P.O. Rattokala"
         },
         "course_code" : "CSE100",
-        "phone_numbers" : ["0900-786011", "0000-158415"],
+        "phone_numbers" : ["0315-4000189", "1111-123456"],
         "age": 22
+    },
+    {
+        "id": 3,
+        "name": "Fuad",
+        "gender": "Male",
+        "email" : "fuadmufti20@gmail.com",
+        "address" : {
+            "country" : "Pakistan",
+            "city" : "Lahore",
+            "street_address" : "77 A1 PIA Society"
+        },
+        "course_code" : "CSE120",
+        "phone_numbers" : ["0000-000000"],
+        "age": 21
     }
 ]
