@@ -1,0 +1,44 @@
+[
+    {
+        "id": 0,
+        "name": "Arose",
+        "gender": "Male",
+        "email" : "arose.niazi@yahoo.com",
+        "address" : {
+            "country" : "Pakistan",
+            "city" : "Mianwali",
+            "street_address" : "Billokhel H# 137M"
+        },
+        "course_code" : "CSE100",
+        "phone_numbers" : ["0900-786011", "0000-158415"],
+        "age": 22
+    },
+    {
+        "id": 1,
+        "name": "Arose",
+        "gender": "Male",
+        "email" : "arose.niazi@yahoo.com",
+        "address" : {
+            "country" : "Pakistan",
+            "city" : "Mianwali",
+            "street_address" : "Billokhel H# 137M"
+        },
+        "course_code" : "CSE100",
+        "phone_numbers" : ["0900-786011", "0000-158415"],
+        "age": 22
+    },
+    {
+        "id": 2,
+        "name": "Arose",
+        "gender": "Male",
+        "email" : "arose.niazi@yahoo.com",
+        "address" : {
+            "country" : "Pakistan",
+            "city" : "Mianwali",
+            "street_address" : "Billokhel H# 137M"
+        },
+        "course_code" : "CSE100",
+        "phone_numbers" : ["0900-786011", "0000-158415"],
+        "age": 22
+    }
+]
