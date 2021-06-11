@@ -29,7 +29,7 @@ function preformUpdate() {
         phone_numbers,
     });
     $.ajax({
-        url: "https://assign3api.arose-niazi.me/api/faculty/" + id,
+        url: "https://api.assign3.arose-niazi.me/api/faculty/" + id,
         headers: { "Content-Type": "application/json" },
         dataType: "json",
         data: tosend,
@@ -45,7 +45,7 @@ function handleUpdate() {
     var btn = $(this);
     var parentDiv = btn.closest(".member");
     let id = parentDiv.attr("data-id");
-    $.get("https://assign3api.arose-niazi.me/api/faculty/" + id, function (response) {
+    $.get("https://api.assign3.arose-niazi.me/api/faculty/" + id, function (response) {
         $("#updateId").val(response.id);
         $("#Uname").val(response.name);
         $("#Ugender").val(response.gender);
@@ -83,7 +83,7 @@ function addMember() {
     //console.log("Sending data" +tosend);
     //console.table(tosend);
     $.ajax({
-        url: "https://assign3api.arose-niazi.me/api/faculty",
+        url: "https://api.assign3.arose-niazi.me/api/faculty",
         method: "POST",
         headers: { "Content-Type": "application/json" },
         dataType: "json",
@@ -110,7 +110,7 @@ function handleDelete() {
     let id = parentDiv.attr("data-id");
     console.log(id);
     $.ajax({
-        url: "https://assign3api.arose-niazi.me/api/faculty/" + id,
+        url: "https://api.assign3.arose-niazi.me/api/faculty/" + id,
         method: "DELETE",
         success: function () {
             loadMembers();
@@ -119,7 +119,7 @@ function handleDelete() {
 }
 function loadMembers() {
     $.ajax({
-        url: "https://assign3api.arose-niazi.me/api/faculty",
+        url: "https://api.assign3.arose-niazi.me/api/faculty",
         method: "GET",
         error: function (response) {
             var faculty = $("#faculty");
