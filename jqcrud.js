@@ -133,7 +133,7 @@ function loadMembers() {
                 var rec = response[i];
                 numbers = rec.phone_numbers;
                 faculty.append(
-                    `<div class="member" data-id="${rec.id}"><h3>${rec.name}</h3><p><button class="btn btn-danger btn-sm float-right">delete</button><button class="btn btn-warning btn-sm float-right">Edit</button>Age: ${rec.age} Gender: ${rec.gender}</br>Email: ${rec.email}</br>Address:<div class="address"><br>${rec.address.country} ---  ${rec.address.city}</br> ${rec.address.street_address}</div></br>Phone: ${numbers}</p></div>`
+                    `<div class="member" data-id="${rec.id}"><h3>${rec.name}</h3><p><button class="btn btn-danger btn-sm float-right">delete</button><button class="btn btn-warning btn-sm float-right">Edit</button>Age: ${rec.age} Gender: ${rec.gender}</br>Email: ${rec.email}</br>Address:<div class="address"><br>${rec.address.country} ---  ${rec.address.city}</br> ${rec.address.street_address}</div></br>Phone nunbers: ${numbers}</br>Course Code: ${rec.course_code}</p></p></div>`
                 );
                 // faculty.append("<div><h3>" + rec.title + "</h3></div>");
             }

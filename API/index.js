@@ -1,4 +1,3 @@
-const e = require("express");
 const express = require("express");
 const app = express();
 const data = require("./data.json");
@@ -17,9 +16,9 @@ app.use(function (req, res, next) {
 });
 
 app.get("/", function (req, res) {
-    res.send(
-        "Error: Please use the faculty API using " +
-            req.baseUrl +
+    res.status(200).send(
+        "Please use the faculty API using " +
+            "https://api.assign3.arose-niazi.me" +
             "/api/faculty"
     );
 });
